@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /determination2/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d 
+
+RewriteRule ^home$ index.php
+RewriteRule ^tambah_barang$ index.php?module=tambah_barang
+RewriteRule ^edit_barang$ index.php?module=edit_barang
+
+RewriteRule ^([a-zA-Z0-9_-]+)$ index.php?module=$1
+
+Options All -Indexes 

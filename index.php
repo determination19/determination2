@@ -1,9 +1,13 @@
+<?php
+	error_reporting(0);
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<title>Penjualan</title>
 	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style_tambah_data.css">
 </head>
 <body>
 	<!-- container -->
@@ -22,46 +26,15 @@
 				</div>
 			<!-- end header -->
 			
-			<!-- table -->
-				<div class="table">
-					
-
-						<table border="1" cellpadding="5" cellspacing="0">
-
-							<div class="add">
-								<form action="">
-									<button style="width: 200px;">Tambah Barang</button>
-								</form>
-							</div>
-					<h2>Daftar Barang</h2>
-							<tr>
-								<th>NO</th>
-								<th>KODE BARANG</th>
-								<th>NAMA BARANG</th>
-								<th>HARGA</th>
-								<th>PERSEDIAAN</th>
-								<th>OPSI</th>
-							</tr>
-							<tr>
-								<td>1</td>
-								<td>12345</td>
-								<td>Keyboard</td>
-								<td>100000</td>
-								<td>2</td>
-								<td>
-									<form action="">
-										<button>Edit</button>
-									</form>
-									<form action="">
-										<button>Delete</button>
-									</form>
-								</td>
-							</tr>
-
-						</table>
-
-				</div>
-			<!-- end table -->
+			<?php
+				if($_GET['module']=="tambah_barang"){
+					include "module/tambah_data.php";
+				}else if($_GET['module']=="edit_barang"){
+					include "module/edit_data.php";
+				}else{
+					include "module/tampil_data.php";
+				}
+			?>
 		</div>
 	<!-- end container -->
 	
