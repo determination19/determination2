@@ -1,0 +1,90 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-family: calibri,sanserif;
+	/*background-image: url(../backround_index.png);*/
+}
+.container{
+	width: 1024px;
+	background-color: white;
+	margin: 0px auto;
+}
+.header{
+	text-align: center;
+}
+.header h2{
+	color: #168abd;
+	padding-top: 10px;
+	font-size: 32px;
+}
+.add button{
+	margin-left: 60px;
+	width: 100px;
+	margin-bottom: 10px;
+}
+.nav{
+	background-color: #168abd;
+	padding: 10px;
+}
+.nav li{
+	list-style: none;
+}
+.nav a{
+	text-decoration: none;
+	color: #fff;
+}
+.nav a:hover{
+	text-decoration:underline;
+}
+.table{
+	margin-top: 20px;
+	width: 100%;
+	padding: 10px;
+	padding-bottom: 20px;
+}
+.table h2{
+	text-align: center;
+	font-size: 22px;
+	padding-bottom: 20px;
+}
+.input_data{
+	width: 500px;
+	background-color: #ccc;
+	margin: 0px auto;
+	padding: 30px;
+	border-radius: 10px;
+}
+.input_data li{
+	list-style: none;
+}
+.input_data input{
+	width: 100%;
+	border-radius: 5px;
+	border:none;
+	border: 1px solid #aaa;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+
+}
+.input_data span{
+	color: red;
+}
+.input_data button{
+	width: 100%;
+	padding: 20px;
+	background-color:  #168abd;
+	border:none;
+	border-radius: 5px;
+	font-size: 18px;
+	color: #fff;
+	transition: .4s;
+}
+.input_data button:hover{
+	transition: .4s;
+	background-color: #116b92;
+}
