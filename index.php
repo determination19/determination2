@@ -16,7 +16,7 @@
 			<!-- nav -->
 				<div class="nav">
 					<ul>
-						<li><a href="">Home</a></li>
+						<li><a href="index.php">Home</a></li>
 					</ul>
 				</div>
 			<!-- end nav -->

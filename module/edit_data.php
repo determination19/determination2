@@ -15,7 +15,7 @@
 		<div class="table">			
 			<div class="add">
 				<form action="home" method="POST">
-					<button type="submit" style="width: 150px;padding: 5px;">Daftar Barang</button>		
+					<button type="submit" style="width: 120px;padding: 10px;">Daftar Barang</button>		
 				</form>
 			</div>
 

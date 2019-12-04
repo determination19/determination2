@@ -21,12 +21,13 @@
 ?>
 						<form action="edit_barang" method="POST">
 							<input type="hidden" name="id" value="<?php echo $id; ?>">
-							<button type="submit">Edit</button>
+							<button type="submit" style="background-color: #d68f0d;"><img src="icon/edit.PNG" alt="" style="width: 15px;"> Edit</button>
 						</form>
-						<form action="tambah_barang" method="POST">
+
+						<td><form action="tambah_barang" method="POST">
 							<input type="hidden" name="id" value="<?php echo $id; ?>">
-							<button type="submit" name="hapus_data">Delete</button>
-						</form>
+							<button type="submit" name="hapus_data" style="background-color: #bd1a1a;"><img src="icon/delete.PNG" alt="" style="width: 15px;"> Delete</button>
+						</form></td>
 <?php
 			echo"
 					</td>

@@ -20,10 +20,13 @@ body{
 	font-size: 32px;
 }
 .add button{
-	margin-left: 60px;
-	width: 100px;
+	padding: 20px;
+}
+.add img{
+	width: 15px;
 }
 .nav{
+	width: 100%;
 	background-color: #168abd;
 	padding: 10px;
 }
@@ -42,6 +45,11 @@ body{
 	width: 100%;
 	padding: 10px;
 	padding-bottom: 20px;
+	border:0.5px solid #aaa;
+}
+.table th,td,tr{
+	border:0.5px solid #aaa;
+
 }
 .table h2{
 	text-align: center;
@@ -51,9 +59,11 @@ body{
 .table table{
 	width: 900px;
 	margin: 0px auto;
+	border-color: #aaa;
+
 }
 .table th{
-	background-color: #ddd;
+	background-color: #d2e4ec;
 	padding: 10px;
 }
 .table tr{
@@ -64,14 +74,15 @@ body{
 	padding: 5px;
 }
 .table button{
-	width: 70px;
+	width: 80px;
 	padding: 10px;
 	border-radius: 5px;
 	border:none;
-	background-color: #ddd;
+	background-color: #0b6c96;
 	transition: .4s;
+	color: #eaeaea;
 }
 .table button:hover{
 	transition: .4s;
-	background-color: #aaa;
+	background-color: #05415a;
 }
